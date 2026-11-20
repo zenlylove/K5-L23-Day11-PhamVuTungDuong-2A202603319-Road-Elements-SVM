@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "duong",
+  "revision": 1,
+  "created_at": "2026-11-20T20:07:42+00:00",
+  "files": [
+    {
+      "file": "duong-front.zip",
+      "bytes": 3296,
+      "sha256": "c68a0e84b8ac8321b744a9f16904590bba2af5c179c01d8acd181bd83470a9bb",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 3,
+        "drivable": 13,
+        "lane": 28,
+        "road_curb": 3,
+        "traffic_light": 20,
+        "traffic_sign": 19
+      }
+    },
+    {
+      "file": "duong-fisheye.zip",
+      "bytes": 1863,
+      "sha256": "63f051f504468bbfbfc98a0a684c2bbcc86117390ad30cc8581480155bd9ddac",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 8,
+      "shapes_by_label": {
+        "crosswalk": 4,
+        "drivable": 3,
+        "lane": 9,
+        "road_curb": 2,
+        "traffic_light": 4,
+        "traffic_sign": 4
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 5,
+    "chính": 0,
+    "nhẹ": 0
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
